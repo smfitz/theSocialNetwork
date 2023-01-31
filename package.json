@@ -1,23 +1,28 @@
 {
-    "dependencies": {
-      "express": "^4.18.2",
-      "moment": "^2.29.4",
-      "mongoose": "^6.9.0",
-      "nodemon": "^2.0.20"
-    },
-    "scripts": {
-      "start": "nodemon server.js"
-    },
-    "name": "thesocialnetwork",
-    "description": "",
-    "version": "1.0.0",
-    "main": "server.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/smfitz/theSocialNetwork"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "homepage": "https://github.com/smfitz/theSocialNetwork#readme"
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.0"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "name": "thesocialnetwork",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smfitz/theSocialNetwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/smfitz/theSocialNetwork#readme",
+  "bugs": {
+    "url": "https://github.com/smfitz/theSocialNetwork/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
+}
