@@ -12,8 +12,8 @@ const thoughtSchema = new Schema (
         },
         createdAt: {
             type: Date,
-            default: Date.now,
-            get: createdAtVal => moment(createdAtVal).format('MM DD, YYYY [at] hh:mm a'),
+            immutable: true,
+            default: () => Date.now,
         },
         username : {
             type: String,
@@ -46,9 +46,9 @@ const reactionSchema = new Schema (
         },
         createdAt: {
             type: Date,
-            default: Date.now,
-            get: createdAtVal => moment(createdAtVal).format('MM DD, YYYY [at] hh:mm a'),
-        }
+            immutable: true,
+            default: () => Date.now,
+        },
     },
     {
         toJSON: {
