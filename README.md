@@ -10,4 +10,4 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia THEN I am able to succe
 
 WHEN I test API POST and DELETE routes in Insomnia THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
-link to walkthrough video: 
+link to walkthrough video: https://app.castify.com/view/668a42b2-5435-496a-b18f-93880d8fc618
